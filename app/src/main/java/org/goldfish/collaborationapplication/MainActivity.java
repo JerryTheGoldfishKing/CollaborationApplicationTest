@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 		setContentView(binding.getRoot());
 
 		setSupportActionBar(binding.toolbar);
+		weirenran.main(new String[0]);
+		misaka.main(new String[0]);
 
 		NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
 		appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
