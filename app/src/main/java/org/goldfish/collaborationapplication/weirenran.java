@@ -5,5 +5,6 @@ public class weirenran {
         System.out.println("我是郑岳平");
         System.out.println("啦啦啦啦啦");
         System.out.println("啦啦啦啦啦");
+        System.out.println("啦啦啦啦啦");
     }
 }
